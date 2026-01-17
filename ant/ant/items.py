@@ -11,4 +11,11 @@ class AntItem(scrapy.Item):
     # name = scrapy.Field()
     # pass
     title = scrapy.Field()
-    desc = scrapy.Field()
+    #文件url
+    file_url = scrapy.Field()
+    # 公告时间
+    time = scrapy.Field()
+    # 状态
+    status = scrapy.Field()
+    # 内容
+    content = scrapy.Field()
